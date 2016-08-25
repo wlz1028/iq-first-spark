@@ -33,12 +33,15 @@ File -> new -> project
 	Add new JDK version to Project SDK from below window
 	
 ![newmaven](https://cloud.githubusercontent.com/assets/5523501/17954024/17a1ff0e-6a46-11e6-91d7-042f05913dea.png)
+
 Next
 
 ![snip20160824_4](https://cloud.githubusercontent.com/assets/5523501/17954860/db83559e-6a4b-11e6-8bca-3c5b1b791034.png)
+
 Next
 
 ![snip20160824_5](https://cloud.githubusercontent.com/assets/5523501/17954876/ff60544e-6a4b-11e6-9039-b30c5ae70430.png)
+
 Enable Auto-Import
 
 ![snip20160824_6](https://cloud.githubusercontent.com/assets/5523501/17955206/6810c742-6a4e-11e6-90ce-7e7729eec256.png)
@@ -133,15 +136,19 @@ Your should be able to see dependencies from navigation bar once IntelliJ resolv
 Create src/main/scala directory
 
 ![snip20160824_7](https://cloud.githubusercontent.com/assets/5523501/17955533/fc496d54-6a50-11e6-83be-e006887514dd.png)
+
 Mark scala/ as `Source Root`
 
 ![snip20160824_8](https://cloud.githubusercontent.com/assets/5523501/17955567/38a5da1c-6a51-11e6-981e-ea3e7758c947.png)
+
 Create `ca.infoq.spark.tut` package
 
 ![image](https://cloud.githubusercontent.com/assets/5523501/17955609/7d0f2a64-6a51-11e6-8d26-12b4de6b9849.png)
+
 Create a new Spark/Scala app object
 
 ![image](https://cloud.githubusercontent.com/assets/5523501/17955647/b51d67ae-6a51-11e6-9476-4a7ad8fe3629.png)
+
 Write you first Spark/Scala app
 
 ```scala
@@ -163,6 +170,9 @@ object SimpleApp extends App {
 
 ##Run your app
 Right click your Scala file and hit `Run`
+
 ![image](https://cloud.githubusercontent.com/assets/5523501/17955935/cd61abb6-6a53-11e6-82c2-ec68105a563d.png)
+
 You will find result in IntelliJ Console
+
 ![image](https://cloud.githubusercontent.com/assets/5523501/17955955/f30b0f9c-6a53-11e6-91bb-ae7ffef43341.png)
